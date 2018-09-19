@@ -32,7 +32,7 @@ const CONF = {
         port: 3306,
         user: 'root',
         db: 'taobaoDB',
-        pass: '',
+        pass: 'mzg-17545123205',
         char: 'utf8mb4'
     },
 
