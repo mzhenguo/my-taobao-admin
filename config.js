@@ -1,6 +1,6 @@
 const CONF = {
     // 其他配置 ...
-    serverHost: '59.110.166.225',
+    serverHost: '127.0.0.1',
     tunnelServerUrl: '',
     tunnelSignatureKey: '27fb7d1c161b7ca52d73cce0f1d833f9f5b5ec89',
       // 腾讯云相关配置可以查看云 API 秘钥控制台：https://console.cloud.tencent.com/capi
@@ -28,7 +28,7 @@ const CONF = {
      * 开发环境下，MySQL 的初始密码为您的微信小程序 appid
      */
     mysql: {
-        host: '59.110.166.225',
+        host: '127.0.0.1',
         port: 3306,
         user: 'root',
         db: 'taobaoDB',
